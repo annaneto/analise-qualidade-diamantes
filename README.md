@@ -1,4 +1,21 @@
-# Análise exploratória da qualidade de Diamantes
+Análise Exploratória de Dados: Qualidade de Diamantes
+📌 Sobre o Projeto
+Este projeto tem como objetivo realizar a limpeza, tratamento e análise exploratória de dados (EDA) a partir de um dataset contendo características físicas e comerciais de diamantes. O foco principal é entender como diferentes variáveis (como peso, corte, cor e claridade) impactam na qualidade e no preço final da gema.
+
+🛠️ Tecnologias Utilizadas
+Linguagem: Python
+
+Bibliotecas Principais: Pandas, NumPy, Matplotlib, Seaborn
+
+🚀 Etapas do Desenvolvimento
+Limpeza de Dados: Identificação de valores ausentes, remoção de duplicatas e tratamento de outliers (valores inconsistentes).
+
+Análise Univariada & Bivariada: Exploração da distribuição das variáveis e correlação entre os atributos.
+
+Visualização de Dados: Criação de gráficos para identificar padrões ocultos no comportamento dos preços.
+
+📊 Principais Insights Esperados
+Identificar quais dos "4Cs" (Carat/Quilate, Cut/Corte, Color/Cor, Clarity/Claridade) possui maior peso na precificação.
 
 ## Desenvolvedores
  - [Anna Karolina](url-do-github-do-desenvolvedor-#1)
@@ -7,26 +24,4 @@
 
 
 
-```
-.
-├── data/              # Diretório contendo todos os arquivos de dados
-│   ├── external/      # Arquivos de dados de fontes externas
-│   ├── interim/       # Arquivos de dados intermediários
-│   ├── processed/     # Arquivos de dados processados
-│   └── raw/           # Arquivos de dados originais, imutáveis
-├── docs/              # Documentação gerada através da biblioteca mkdocs
-├── models/            # Modelos treinados e serializados, predições ou resumos de modelos
-├── notebooks/         # Diretório contendo todos os notebooks utilizados nos passos
-├── references/        # Dicionários de dados, manuais e todo o material exploratório
-├── src/               # Código fonte utilizado nesse projeto
-│   ├── data/          # Classes e funções utilizadas para download e processamento de dados
-│   ├── deployment/    # Classes e funções utilizadas para implantação do modelo
-│   └── model/         # Classes e funções utilizadas para modelagem
-├── app.py             # Arquivo com o código da aplicação do streamlit
-├── Procfile           # Arquivo de configuração do heroku
-├── pyproject.toml     # Arquivo de dependências para reprodução do projeto
-├── poetry.lock        # Arquivo com sub-dependências do projeto principal
-├── README.md          # Informações gerais do projeto
-└── tasks.py           # Arquivo com funções para criação de tarefas utilizadas pelo invoke
 
-```
